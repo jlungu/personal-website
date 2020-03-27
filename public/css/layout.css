@@ -952,6 +952,8 @@ footer .social-links li:first-child { margin-left: 0; }
    width: 52%;
 }
 
+
+
 #projects {
    background: #9fc4c6;
    padding-top: 96px;
@@ -971,4 +973,21 @@ footer .social-links li:first-child { margin-left: 0; }
    font-style: normal;
    font-family: opensans-regular;
    margin-bottom: 40px;
+}
+
+#skills{
+   background: white;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+.icon{
+   text-align: center;
+   float: right;
+}
+.progress-labels{
+   margin-left: 5px;
+   font-size: 18px;
+   font: 1.1em 'opensans-bold';
+   color: #2B2B2B;
 }

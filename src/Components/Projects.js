@@ -11,9 +11,10 @@ class Projects extends Component {
     let project = {
       marginBottom: "45px",
     }
+    let myprojects = "< My Projects />"
     return (
       <section id="projects">
-        <h1 className=" project-header">My Projects</h1>
+        <h1 className=" project-header">{myprojects}</h1>
         <h3 className="project-h3">Here are a few of the most recent projects I have been working on</h3>
           <div class="row row-cols-1 row-cols-md-2">
             <div class="col mb-4">
@@ -33,7 +34,7 @@ class Projects extends Component {
                 <div class="card-body">
                   <h5 class="card-title">To-Do List</h5>
                   <p class="card-text project-text">
-                  To-Do List Manager.  Coded with ReactJS, JavaScript
+                  To-Do ist Manager.  Coded with ReactJS, JavaScript
                   </p>
                 </div>
               </div>
