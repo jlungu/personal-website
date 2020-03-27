@@ -951,3 +951,24 @@ footer .social-links li:first-child { margin-left: 0; }
    margin-left: 60%;
    width: 52%;
 }
+
+#projects {
+   background: #9fc4c6;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+.project-text{
+   font-size: 12px
+}
+.project-header{
+   font-size: 35px;
+   text-align: center
+}
+.project-h3{
+   font-size: 16px;
+   text-align: center;
+   font-style: normal;
+   font-family: opensans-regular;
+   margin-bottom: 40px;
+}
