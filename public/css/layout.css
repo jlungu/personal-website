@@ -1116,7 +1116,8 @@ footer .social-links li:first-child {
   color: white;
   text-align: center;
   vertical-align: middle;
-  font: 1em "opensans-regular";
+  font: 0.8em "opensans-regular";
+  padding: 5px;
   margin-bottom: 20px;
   border-style: solid;
   margin-right: 40px;
@@ -1127,14 +1128,16 @@ footer .social-links li:first-child {
   width: 160px;
   border-color: #2b2b2b;
   background-color: #2b2b2b;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 .coursework-items:hover {
+  cursor: pointer;
   display: table-cell;
   color: #2b2b2b;
   text-align: center;
   line-height: 20px;
-  font: 1em "opensans-regular";
+  font: 0.8em "opensans-regular";
+  padding: 5px;
   margin-bottom: 20px;
   border-style: solid;
   margin-right: 40px;
@@ -1145,7 +1148,7 @@ footer .social-links li:first-child {
   width: 160px;
   border-color: #2b2b2b;
   background-color: white;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 .coursework-item-text {
   position: relative;
@@ -1162,4 +1165,5 @@ footer .social-links li:first-child {
 .course-pos-odd {
    display: inline-block;
    margin-left: 34%;
+   margin-top: -5%;
  }
