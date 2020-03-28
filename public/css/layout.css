@@ -981,13 +981,24 @@ footer .social-links li:first-child { margin-left: 0; }
    padding-bottom: 66px;
    overflow: hidden;
 }
+
+.skills-sub-header{
+   font-size: 30px;;
+   font:  'opensans-bold';
+   text-align: center;
+   color: #2B2B2B;
+   margin-bottom: 20px;
+}
+
 .icon{
    text-align: center;
    float: right;
+   margin-bottom: 5px;
 }
 .progress-labels{
    margin-left: 5px;
    font-size: 18px;
    font: 1.1em 'opensans-bold';
    color: #2B2B2B;
+   margin-bottom: -50px;
 }
