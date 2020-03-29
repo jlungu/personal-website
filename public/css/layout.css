@@ -1163,7 +1163,79 @@ footer .social-links li:first-child {
   margin-left: 40px;
 }
 .course-pos-odd {
-   display: inline-block;
-   margin-left: 34%;
-   margin-top: -5%;
- }
+  display: inline-block;
+  margin-left: 34%;
+  margin-top: -5%;
+}
+
+#contact-me {
+  background: #2b2b2b;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+}
+.contact-header {
+  font-size: 35px;
+  text-align: center;
+  color: white;
+}
+.contact-div {
+  position: relative;
+  text-align: center;
+  margin-left: 43%;
+}
+#contact-text{
+  text-align: center;
+  width: 400px;
+}
+.contact-items {
+  display: table-cell;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  font: 0.8em "opensans-regular";
+  padding: 5px;
+  margin-bottom: 20px;
+  border-style: solid;
+  margin-right: 40px;
+  margin-left: 40px;
+  border-width: 2px;
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+  border-color: white;
+  background-color: #2b2b2b;
+  transition: 0.4s;
+}
+.contact-item-pos{
+  display: inline-block;
+  margin-left: 34%;
+  margin-top: 5%;
+}
+
+.about-text{
+  text-align: center;
+  margin-left: 31%;
+}
+.about-header{
+  font-size: 35px;
+  text-align: center;
+  color: white;
+}
+.about-profile{
+  border-radius: 50%;
+  max-height: 70%;
+  max-width: 70%;
+  margin-left: 24%;
+  margin-top: 4%;
+}
+#about-text{
+
+}
+#line-break{
+  text-align: center;
+  margin-left: 33%;
+  margin-top: -2%;
+}
+

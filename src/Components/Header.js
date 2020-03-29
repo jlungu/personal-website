@@ -25,20 +25,46 @@ class Header extends Component {
     return (
       <header id="home">
         <nav id="nav-wrap">
+          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
+            Show navigation
+          </a>
+          <a className="mobile-btn" href="#home" title="Hide navigation">
+            Hide navigation
+          </a>
 
-         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
-
-         <ul id="nav" className="navz">
-            <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-            <li><a className="smoothscroll" href="#about">About</a></li>
-            <li><a className="smoothscroll" href="#projects">Projects</a></li>
-            <li><a className="smoothscroll" href="#skills">Skills</a></li>
-            <li><a className="smoothscroll" href="#coursework">Coursework</a></li>
-         </ul>
-
-      </nav>
-
+          <ul id="nav" className="navz">
+            <li className="current">
+              <a className="smoothscroll" href="#home">
+                Home
+              </a>
+            </li>
+            <li>
+              <a className="smoothscroll" href="#about">
+                About
+              </a>
+            </li>
+            <li>
+              <a className="smoothscroll" href="#projects">
+                Projects
+              </a>
+            </li>
+            <li>
+              <a className="smoothscroll" href="#skills">
+                Skills
+              </a>
+            </li>
+            <li>
+              <a className="smoothscroll" href="#coursework">
+                Coursework
+              </a>
+            </li>
+            <li>
+              <a className="smoothscroll" href="#contact-me">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
 
         <div className="row banner">
           <div className="banner-text">
