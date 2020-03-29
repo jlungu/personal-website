@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { Component } from "react";
 
 class Contact extends Component {
@@ -74,3 +75,17 @@ class Contact extends Component {
   }
 }
 export default Contact;
+=======
+import React, { Component } from "react";
+class Contact extends Component {
+  render() {
+    let contact = "< Contact />";
+    return (
+      <section id="contact">
+        <h1 className=" project-header">{contact}</h1>
+      </section>
+    );
+  }
+}
+export default Contact;
+>>>>>>> 07d84673e951833bd9f809f146ad25df33ee2435

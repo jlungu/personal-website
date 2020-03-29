@@ -32,6 +32,7 @@ class Header extends Component {
             Hide navigation
           </a>
 
+<<<<<<< HEAD
           <ul id="nav" className="navz">
             <li className="current">
               <a className="smoothscroll" href="#home">
@@ -65,6 +66,22 @@ class Header extends Component {
             </li>
           </ul>
         </nav>
+=======
+         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" className="navz">
+            <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
+            <li><a className="smoothscroll" href="#about">About</a></li>
+            <li><a className="smoothscroll" href="#projects">Projects</a></li>
+            <li><a className="smoothscroll" href="#skills">Skills</a></li>
+            <li><a className="smoothscroll" href="#coursework">Coursework</a></li>
+            <li><a className="smoothscroll" href="#contact">Contact</a></li>
+         </ul>
+
+      </nav>
+
+>>>>>>> 07d84673e951833bd9f809f146ad25df33ee2435
 
         <div className="row banner">
           <div className="banner-text">
