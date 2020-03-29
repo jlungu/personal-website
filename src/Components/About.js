@@ -33,7 +33,7 @@ class About extends Component {
         <div class="row">
           <hr id="line-break" width="35%"></hr>
         </div>
-        <div class="row about-text">
+        <div class=" about-text">
           <div id="about-text" className="nine columns main-col">
             <p>{bio}</p>
             <div className="row">

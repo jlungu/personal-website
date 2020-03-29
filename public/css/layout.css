@@ -1057,10 +1057,18 @@ footer .social-links li:first-child {
 }
 .project-text {
   font-size: 12px;
+  text-align: center;
+}
+.my-cards{
+  border-radius: 5px;
+}
+.project-title{
+  text-align: center;
 }
 .project-header {
   font-size: 35px;
   text-align: center;
+  margin-bottom: 3%;
 }
 .project-h3 {
   font-size: 16px;
@@ -1069,6 +1077,35 @@ footer .social-links li:first-child {
   font-family: opensans-regular;
   margin-bottom: 40px;
 }
+
+#github-btn{
+  margin-top: 30%;
+  color: white;
+  background-color: #2b2b2b;
+  text-align: center;
+}
+
+#github-btn:hover{
+  color: #2b2b2b;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.git-btn-pos{
+  margin-left: 42%;
+  margin-right: 42%;
+}
+.view-but{
+  margin-left: 33%;
+  margin-right: 33%;
+}
+.view-but-src{
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+
 
 #skills {
   background: white;
@@ -1163,16 +1200,28 @@ footer .social-links li:first-child {
   margin-left: 40px;
 }
 .course-pos-odd {
+<<<<<<< HEAD
   display: inline-block;
   margin-left: 34%;
   margin-top: -5%;
 }
 
 #contact-me {
+=======
+   display: inline-block;
+   margin-left: 34%;
+   margin-top: -5%;
+ }
+
+
+
+ #finance {
+>>>>>>> 07d84673e951833bd9f809f146ad25df33ee2435
   background: #2b2b2b;
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
+<<<<<<< HEAD
 }
 .contact-header {
   font-size: 35px;
@@ -1210,13 +1259,14 @@ footer .social-links li:first-child {
 }
 .contact-item-pos{
   display: inline-block;
-  margin-left: 34%;
   margin-top: 5%;
 }
 
 .about-text{
   text-align: center;
-  margin-left: 31%;
+  width: 60%;
+  margin-left: 21%;
+  margin-right: 21%;
 }
 .about-header{
   font-size: 35px;
@@ -1238,4 +1288,11 @@ footer .social-links li:first-child {
   margin-left: 33%;
   margin-top: -2%;
 }
-
+.projects-div{
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+=======
+}
+>>>>>>> 07d84673e951833bd9f809f146ad25df33ee2435
