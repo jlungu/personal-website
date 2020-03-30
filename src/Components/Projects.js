@@ -62,7 +62,7 @@ class Projects extends Component {
           </div>
           <div class="col mb-4">
             <div class="card h-100 shadow my-cards">
-              <img src="images/instructions.png" class="card-img-top" />
+              <img src="images/press.png" class="card-img-top" />
               <div class="card-body">
                 <h5 class="card-title project-title" style={press}>
                   Press Release Doc
@@ -72,7 +72,7 @@ class Projects extends Component {
                   Communications Class.
                 </p>
                 <a
-                  href="#"
+                  href="https://drive.google.com/file/d/1LFqSxNtUsJl3oTwkpQqiu2qiuJ6cX1r-/view?usp=sharing"
                   target="_blank"
                   class="btn btn-outline-secondary view-but"
                 >
@@ -95,7 +95,7 @@ class Projects extends Component {
                   with a simple solution to it.
                 </p>
                 <a
-                  href="#"
+                  href="https://prezi.com/p/6ni4dr_4rr5q/?present=1"
                   target="_blank"
                   class="btn btn-outline-secondary view-but"
                 >

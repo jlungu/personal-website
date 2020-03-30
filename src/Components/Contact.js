@@ -1,91 +1,39 @@
-<<<<<<< HEAD
 import React, { Component } from "react";
 
 class Contact extends Component {
   render() {
     let contact = "< Contact Me />";
+    let info = "James Lungu\njamesjjlungu@gmail.com\nNew York City, New York";
     return (
       <section id="contact-me">
         <h1 className="contact-header">{contact}</h1>
         <div class="row">
-          <div
-            id="carouselExampleIndicators"
-            class="carousel slide"
-            data-ride="carousel"
-          >
-            <ol class="carousel-indicators">
-              <li
-                data-target="#carouselExampleIndicators"
-                data-slide-to="0"
-                class="active"
-              ></li>
-              <li
-                data-target="#carouselExampleIndicators"
-                data-slide-to="1"
-              ></li>
-              <li
-                data-target="#carouselExampleIndicators"
-                data-slide-to="2"
-              ></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="images/profile.jpg" class="d-block w-100" alt="..." />
-              </div>
-              <div class="carousel-item">
-                <img src="images/profile.jpg" class="d-block w-100" alt="..." />
-              </div>
-              <div class="carousel-item">
-                <img src="images/profile.jpg" class="d-block w-100" alt="..." />
-              </div>
+          <div class="col-sm">
+            <img className="contact-profile" src="/images/me.jpg" />
+            <hr id="line-break-contact-l" width="25%"></hr>
+            <div id="info">
+              <p class="info-text">James Lungu</p>
+              <p class="info-text">jamesjjungu@gmail.com</p>
+              <p class="info-text">New York City, New York</p>
             </div>
-            <a
-              class="carousel-control-prev"
-              href="#carouselExampleIndicators"
-              role="button"
-              data-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a
-              class="carousel-control-next"
-              href="#carouselExampleIndicators"
-              role="button"
-              data-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="sr-only">Next</span>
+          </div>
+          <div class="col-sm">
+            <p id="contact-text">
+              Thanks for visiting my website! Want to get in touch? Shoot me an
+              email and we can have a great talk! Currently, I am searching for
+              an Internship for Summer 2020, revolving around Computer
+              Science/Software Development. But, with my graduation in about a
+              year, I'm also looking into some opportunities post-university.
+              Either way, I look forward to hearing from you!
+            </p>
+            <hr id="line-break-contact-r" width="50%"></hr>
+            <a href="mailto:jamesjjlungu@gmail.com?Subject=" target="_top">
+              <i class="fas fa-envelope contact-email fa-4x"></i>
             </a>
           </div>
-          {/* <p id="contact-text">
-            Thanks for visiting my site! Want to get in contact with me? Shoot
-            me an email, and we can have a chat. I look forward to hearing from
-            you!
-          </p> */}
         </div>
       </section>
     );
   }
 }
 export default Contact;
-=======
-import React, { Component } from "react";
-class Contact extends Component {
-  render() {
-    let contact = "< Contact />";
-    return (
-      <section id="contact">
-        <h1 className=" project-header">{contact}</h1>
-      </section>
-    );
-  }
-}
-export default Contact;
->>>>>>> 07d84673e951833bd9f809f146ad25df33ee2435

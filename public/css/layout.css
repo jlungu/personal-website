@@ -1080,14 +1080,14 @@ footer .social-links li:first-child {
 
 #github-btn{
   margin-top: 30%;
-  color: white;
-  background-color: #2b2b2b;
+  color: #2b2b2b;
+  background-color: white;
   text-align: center;
 }
 
 #github-btn:hover{
-  color: #2b2b2b;
-  background-color: white;
+  color: white;
+  background-color: #2b2b2b;
   text-align: center;
   text-decoration: none;
 }
@@ -1104,8 +1104,6 @@ footer .social-links li:first-child {
   margin-left: 30%;
   margin-right: 30%;
 }
-
-
 
 #skills {
   background: white;
@@ -1200,28 +1198,16 @@ footer .social-links li:first-child {
   margin-left: 40px;
 }
 .course-pos-odd {
-<<<<<<< HEAD
   display: inline-block;
   margin-left: 34%;
   margin-top: -5%;
 }
 
 #contact-me {
-=======
-   display: inline-block;
-   margin-left: 34%;
-   margin-top: -5%;
- }
-
-
-
- #finance {
->>>>>>> 07d84673e951833bd9f809f146ad25df33ee2435
   background: #2b2b2b;
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
-<<<<<<< HEAD
 }
 .contact-header {
   font-size: 35px;
@@ -1293,6 +1279,48 @@ footer .social-links li:first-child {
   margin-left: 20%;
   margin-right: 20%;
 }
-=======
+
+
+#contact-text{
+  text-align: center;
+  margin-top: 7%;
+  margin-left: 12%;
 }
->>>>>>> 07d84673e951833bd9f809f146ad25df33ee2435
+
+#line-break-contact-l{
+  text-align: center;
+  margin-left: 37%;
+  margin-right: 35%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#line-break-contact-r{
+  text-align: center;
+  margin-left: 29%;
+  margin-top: 5%;
+}
+.contact-profile{
+  border-radius: 50%;
+  max-height: 45%;
+  max-width: 45%;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+.contact-email{
+  margin-left: 48%;
+  color: white;
+  transition: 0.4s;
+}
+.contact-email:hover{
+  margin-left: 48%;
+  color: gray;
+  transition: 0.4s;
+  cursor: pointer;
+}
+#info{
+  text-align: center;
+}
+.info-text{
+  margin-bottom: .05%;
+}
