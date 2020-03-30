@@ -1045,8 +1045,9 @@ footer .social-links li:first-child {
 }
 
 #resume-button {
-  margin-left: 60%;
-  width: 52%;
+  margin-left: 67%;
+  margin-right: 67%;
+  width: 38%;
 }
 
 #projects {
@@ -1323,4 +1324,11 @@ footer .social-links li:first-child {
 }
 .info-text{
   margin-bottom: .05%;
+}
+.press-release{
+  max-height: 91%;
+  max-width: 91%;
+}
+#header-hr{
+  color: darkgray;
 }
