@@ -1,12 +1,9 @@
-## www.jamesjjlungu.com
+## Domain name: www.jamesjjlungu.com
 ## About
 #### This is the code for my personal website
 #### I used a React template as a very barebones starting point, and I really just used the navbar and header/footer pages from it. I though they looked very nice. The rest I coded myself!
 #### Coded with JavaScript, React.js, HTML5/CSS.
 #### Used Bootstrap as a CSS framework, to beautify my page. Normally, I would have used Materialize CSS, however it was being difficult. So I figured why not play around with a new technology, Bootstrap.
-
-## Domain name: www.jamesjjlungu.com
-
 
 
 ## Hosting
