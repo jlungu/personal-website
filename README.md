@@ -8,10 +8,11 @@
 
 ## Hosting
 #### This website is actually running on a web server from my Raspberry Pi 2! 
-#### I bought the domain from Google Domains. Then, I generated a static IP address for my Pi, and created a DNS entry for my domain and the IP of the Pi
+#### I bought the domain from Google Domains. Then, I generated a static IP address for my Pi. I created a DNS entry for my domain and that IP.
 #### On the Pi, I used PuTTY to log into its terminal, and downloaded and ran an Apache2 Web Server.
-#### I used npm run build to grab a build folder for my project, and transferred that to the ver/www/html folder on the Pi, the default folder for the Apache2 Web Server. I used WinSCP to transfer.
-#### Lastly, I just port forwarded port 80 on my router, and voila! A working web server.
+#### I used npm run build to grab a build folder for my project, and transferred that to the var/www/html folder on the Pi, the default folder for the Apache2 Web Server. I used WinSCP to transfer.
+#### Lastly, I just port forwarded my router, and voila! A working web server.
+#### I am currently using Cloudfare to secure the website.
 
 
 
