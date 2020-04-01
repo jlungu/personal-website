@@ -7,7 +7,7 @@ class Coursework extends Component {
         <h1 className=" project-header">{coursework}</h1>
         <div class="row">
           <div class="col-sm">
-            <h3 class="coursework-headers">/*Current*/</h3>
+            <h3 class="coursework-headers">Current</h3>
             {/*Each div has a hyperlink to the class information*/}
             <a
               href="https://www.cs.stonybrook.edu/students/Undergraduate-Studies/courses/CSE373"
@@ -69,7 +69,7 @@ class Coursework extends Component {
             </a>
           </div>
           <div class="col-sm">
-            <h3 class="coursework-headers">/*Previous*/</h3>
+            <h3 class="coursework-headers">Previous</h3>
             <a
               href="https://www.cs.stonybrook.edu/students/Undergraduate-Studies/courses/CSE114"
               target="_blank"
