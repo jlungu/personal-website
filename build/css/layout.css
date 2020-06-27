@@ -1045,9 +1045,9 @@ footer .social-links li:first-child {
 }
 
 #resume-button {
-  margin-left: 67%;
-  margin-right: 67%;
-  width: 38%;
+  display: inline-block;
+  width: 250px;
+  margin-left: 66%;
 }
 
 #projects {
@@ -1262,8 +1262,15 @@ footer .social-links li:first-child {
 }
 .about-profile{
   border-radius: 50%;
-  max-height: 70%;
-  max-width: 70%;
+  height: 85%; 
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 4%;
+}
+.about-profile_2{
+  border-radius: 50%;
+  height: 100px;
+  width:11;
   margin-left: 24%;
   margin-top: 4%;
 }
@@ -1274,6 +1281,10 @@ footer .social-links li:first-child {
   text-align: center;
   margin-left: 33%;
   margin-top: -2%;
+}
+#line-break_abt{
+  text-align: center;
+  margin-left: 33%;
 }
 .projects-div{
   width: 60%;
@@ -1331,4 +1342,10 @@ footer .social-links li:first-child {
 }
 #header-hr{
   color: darkgray;
+}
+.wrapper_button{
+  text-align: center;
+}
+#color-front-font{
+  color: rgb(230, 230, 230);
 }
