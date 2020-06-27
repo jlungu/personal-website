@@ -24,7 +24,7 @@ class About extends Component {
             <img className="about-profile" src="/images/italy.png" />
           </div>
           <div class="col mb-3">
-            <img className="about-profile" src="/images/profile.jpg" />
+            <img className="about-profile_2" src="/images/profile.jpg" />
           </div>
           <div class="col mb-3">
             <img className="about-profile" src="/images/mello.png" />
