@@ -24,19 +24,22 @@ class About extends Component {
             <img className="about-profile" src="/images/italy.png" />
           </div>
           <div class="col mb-3">
-            <img className="about-profile_2" src="/images/profile.jpg" />
+            <img className="about-profile" src="/images/profile.png" />
           </div>
           <div class="col mb-3">
             <img className="about-profile" src="/images/mello.png" />
           </div>
         </div>
         <div class="row">
-          <hr id="line-break" width="35%"></hr>
+          <hr id="line-break_abt" width="35%"></hr>
         </div>
         <div class=" about-text">
           <div id="about-text" className="nine columns main-col">
             <p>{bio}</p>
-            <div className="row">
+            
+          </div>
+        </div>
+        <div className="row wrapper_button">
               <div className="download">
                 <p>
                   <a
@@ -49,8 +52,6 @@ class About extends Component {
                 </p>
               </div>
             </div>
-          </div>
-        </div>
       </section>
     );
   }
