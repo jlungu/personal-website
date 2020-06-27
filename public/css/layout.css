@@ -1081,14 +1081,14 @@ footer .social-links li:first-child {
 
 #github-btn{
   margin-top: 30%;
-  color: #2b2b2b;
-  background-color: white;
+  color: white;
+  background-color: #2b2b2b;
   text-align: center;
 }
 
 #github-btn:hover{
-  color: white;
-  background-color: #2b2b2b;
+  color: #2b2b2b;
+  background-color: white;
   text-align: center;
   text-decoration: none;
 }
@@ -1105,6 +1105,8 @@ footer .social-links li:first-child {
   margin-left: 30%;
   margin-right: 30%;
 }
+
+
 
 #skills {
   background: white;
@@ -1280,8 +1282,6 @@ footer .social-links li:first-child {
   margin-left: 20%;
   margin-right: 20%;
 }
-
-
 #contact-text{
   text-align: center;
   margin-top: 7%;
