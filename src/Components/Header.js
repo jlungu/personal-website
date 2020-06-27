@@ -72,10 +72,10 @@ class Header extends Component {
             <h4 id="name-header" style={headerStyle}>
               This is {name}.
             </h4>
-            <h3>
+            <h3 className="headerTextColor">
               I'm a {city} based <span>{occupation}</span>. {description}.
             </h3>
-            <hr />
+            <hr id="header-hr"/>
             <ul className="social">{networks}</ul>
           </div>
         </div>

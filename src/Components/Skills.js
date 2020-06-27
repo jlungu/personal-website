@@ -94,7 +94,7 @@ class Skills extends Component {
         <h1 className=" project-header">{myskills}</h1>
         <div class="row">
           <div class="col-sm">
-            <div className="skills-sub-header">//Programming</div>
+            <div className="skills-sub-header">Programming</div>
             <i class="fab fa-js-square fa-2x icon" style={js}></i>
             <span class="progress-labels">JavaScript</span>
             <div class="progress" style={heights}>
@@ -182,7 +182,7 @@ class Skills extends Component {
             </div>
           </div>
           <div class="col-sm">
-          <div className="skills-sub-header">#Software</div>
+          <div className="skills-sub-header">Software</div>
           <i class="fab fa-github fa-2x icon" style={git}></i>
           <span class="progress-labels">GitHub</span>
             <div class="progress" style={heights}>

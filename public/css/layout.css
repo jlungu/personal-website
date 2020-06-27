@@ -1045,8 +1045,9 @@ footer .social-links li:first-child {
 }
 
 #resume-button {
-  margin-left: 60%;
-  width: 52%;
+  margin-left: 67%;
+  margin-right: 67%;
+  width: 38%;
 }
 
 #projects {
@@ -1280,4 +1281,54 @@ footer .social-links li:first-child {
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
+}
+#contact-text{
+  text-align: center;
+  margin-top: 7%;
+  margin-left: 12%;
+}
+
+#line-break-contact-l{
+  text-align: center;
+  margin-left: 37%;
+  margin-right: 35%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#line-break-contact-r{
+  text-align: center;
+  margin-left: 29%;
+  margin-top: 5%;
+}
+.contact-profile{
+  border-radius: 50%;
+  max-height: 45%;
+  max-width: 45%;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+.contact-email{
+  margin-left: 48%;
+  color: white;
+  transition: 0.4s;
+}
+.contact-email:hover{
+  margin-left: 48%;
+  color: gray;
+  transition: 0.4s;
+  cursor: pointer;
+}
+#info{
+  text-align: center;
+}
+.info-text{
+  margin-bottom: .05%;
+}
+.press-release{
+  max-height: 91%;
+  max-width: 91%;
+}
+#header-hr{
+  color: darkgray;
 }

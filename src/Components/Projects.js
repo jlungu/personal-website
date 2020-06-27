@@ -62,7 +62,7 @@ class Projects extends Component {
           </div>
           <div class="col mb-4">
             <div class="card h-100 shadow my-cards">
-              <img src="images/press.png" class="card-img-top" />
+              <img src="images/press.png" class="card-img-top press-release" />
               <div class="card-body">
                 <h5 class="card-title project-title" style={press}>
                   Press Release Doc
