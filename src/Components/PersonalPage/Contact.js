@@ -20,11 +20,10 @@ class Contact extends Component {
           <div class="col-sm">
             <p id="contact-text">
               Thanks for visiting my website! Want to get in touch? Shoot me an
-              email and we can have a great talk! Currently, I am searching for
-              an Internship for Summer 2020, revolving around Computer
-              Science/Software Development. But, with my graduation in about a
-              year, I'm also looking into some opportunities post-university.
-              Either way, I look forward to hearing from you!
+              email and we can have a talk! I am currently a rising senior at Stony Brook, so I am looking 
+              for some job opportunities post graduation. I am particularly interested in the Fin-Tech Industry, but would
+              love any sort of job developing applications for a great company!
+              I look forward to hearing from you!
             </p>
             <hr id="line-break-contact-r" width="50%"></hr>
             <a href="mailto:jamesjjlungu@gmail.com?Subject=" target="_top">

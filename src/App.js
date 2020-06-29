@@ -15,10 +15,9 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-      <Redirect exact path="/" to="/home"></Redirect>
         <div className="App">
           <Switch>
-            <Route exact path="/home">
+            <Route path="/">
               <PersonalPage />
             </Route>
           </Switch>

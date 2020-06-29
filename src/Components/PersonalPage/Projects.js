@@ -6,10 +6,13 @@ class Projects extends Component {
       marginBottom: "24px"
     };
     let press = {
-      marginTop: "-2px"
+      marginTop: "2px"
     };
     let project = {
       marginBottom: "45px"
+    };
+    let project_2 = {
+      marginBottom: "35px"
     };
     let github = " My GitHub";
     let myprojects = "< My Projects />";
@@ -17,6 +20,29 @@ class Projects extends Component {
       <section id="projects">
         <h1 className=" project-header">{myprojects}</h1>
         <div class="row row-cols-1 row-cols-md-2">
+          <div class="col mb-4">
+            <div class="card h-100 shadow my-cards">
+              <img
+                src="images/gal_3.png"
+                class="card-img-top"
+                style={project_2}
+              />
+              <div class="card-body">
+                <h5 class="card-title project-title">Stock Lookup</h5>
+                <p class="card-text project-text">
+                  A simple stock look up tool, utilizing APIs & WebHooks to deliver real-time
+                  stock information.
+                </p>
+                <a
+                  href="https://github.com/jlungu/fin-app"
+                  target="_blank"
+                  class="btn btn-outline-secondary view-but-src"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </div>
           <div class="col mb-4">
             <div class="card h-100 shadow my-cards">
               <img
@@ -28,8 +54,7 @@ class Projects extends Component {
               <div class="card-body">
                 <h5 class="card-title project-title">Wireframer App</h5>
                 <p class="card-text project-text">
-                  Simplified Wireframer Web App, using Firestore as database.
-                  Coded with JavaScript, React.js, Redux
+                  Simplified Wireframer Web App, equipped with drag/drop buttons, containers, and text boxes.
                 </p>
                 <a
                   href="https://github.com/jlungu/wireframer_app"
@@ -47,8 +72,7 @@ class Projects extends Component {
               <div class="card-body">
                 <h5 class="card-title project-title">To-Do List</h5>
                 <p class="card-text project-text">
-                  To-Do List Manager, complete with individual user accounts.
-                  Coded with React.js, JavaScript
+                  To-Do List Manager, complete with modular lists tied to each user's account.
                 </p>
                 <a
                   href="https://github.com/jlungu/todo_hw3"
@@ -81,29 +105,7 @@ class Projects extends Component {
               </div>
             </div>
           </div>
-          <div class="col mb-4">
-            <div class="card h-100 shadow my-cards">
-              <img
-                src="images/resources.png"
-                class="card-img-top"
-                style={project}
-              />
-              <div class="card-body">
-                <h5 class="card-title project-title">Problem Solving</h5>
-                <p class="card-text project-text">
-                  A group project, we identified a problem on campus and came up
-                  with a simple solution to it.
-                </p>
-                <a
-                  href="https://prezi.com/p/6ni4dr_4rr5q/?present=1"
-                  target="_blank"
-                  class="btn btn-outline-secondary view-but"
-                >
-                  View Prezi
-                </a>
-              </div>
-            </div>
-          </div>
+          
         </div>
         <div class="row">
           <div className="git-btn-pos">
