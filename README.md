@@ -1,4 +1,4 @@
-## Domain name: https://www.jamesjjlungu.com
+## Domain name: http://www.jamesjjlungu.com
 ## About
 #### This is the code for my personal website
 #### I used a React template as a very barebones starting point, and I really just used the navbar and header/footer pages from it. I though they looked very nice. The rest I coded myself!
